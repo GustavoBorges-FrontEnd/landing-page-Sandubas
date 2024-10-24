@@ -2,10 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&display=swap');
+
 :root{
-    --corprincipal: #FFB38E;
+    --corprincipal: #720e07;
     --cordefundo: rgb(31, 30, 30);
-    --fontprincipal: 
+    --cortexto: white;
+    --fontprincipal: "Teko", sans-serif;
 }
 
 *{
@@ -19,16 +22,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-pequena);
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     transition: transform 0.3s ease-out;
-    font-family: "Bebas Neue", sans-serif;;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 li {
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--cortexto);
+    font-family: var(--fontprincipal);
 }
 
 a {
@@ -37,6 +41,7 @@ a {
 
 h1{
     font-size: 2.5rem;
+    color: var(--cortexto);
 }
 
 /*Botões fixos*/
@@ -231,6 +236,11 @@ h1{
 }
 
 .lista{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(80, 80, 80);
+    box-shadow: 1px 5px 10px black;
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
