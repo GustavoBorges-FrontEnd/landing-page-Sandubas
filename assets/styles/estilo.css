@@ -239,7 +239,6 @@ h1{
 }
 
 .titulo{
-    text-shadow: 6px 6px 15px black;
     background-color: rgb(80, 80, 80);
     padding: 1rem;
     border-radius: 10px;
